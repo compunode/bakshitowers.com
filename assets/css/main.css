@@ -584,6 +584,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 /* ==========================================================================
    SLICK
    ========================================================================== */
+
 .slick-prev,
 .slick-next
 {
@@ -624,6 +625,16 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 {
     right: auto;
     left: -60px;
+}
+
+@media screen and (max-width:769px) {
+	.slick-prev,
+	.slick-next {
+		display: none !important;
+	}
+	.slick-slider img {
+		padding-left: 20px;
+	}
 }
 
 .slick-slider img {

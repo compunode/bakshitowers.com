@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
 <meta name="robots" content="noindex">
 <meta name="googlebot" content="noindex">
 <meta name="msnbot" content="noindex">
 <meta name="slurp" content="noindex">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0, width=device-width;">
 <title></title>
 
 <!-- Bootstrap core CSS -->
@@ -67,8 +67,10 @@ body {
 <div id="headerwrap" name="home">
   <header class="clearfix">
     <br><br><br><br><br><br>
-    <h1>Bakshi Towers</h1>
-    <h2>Comfort &amp; Quality Living</h2>
+    <div style="background:#002044; padding: 5px">
+      <h1 style="background:">Bakshi Towers</h1>
+      <h2>Comfort &amp; Quality Living</h2>
+    </div>
   </header>
 </div>
 <!-- /headerwrap --> 
@@ -172,11 +174,11 @@ body {
 <script type="text/javascript" src="assets/js/jquery-func.js"></script>
 <script>
 $('.slick-slider').slick({
-  centerPadding: '60px',
   slidesToShow: 1,
   dots: true,
   autoplay: true,
   autoplaySpeed: 3500
+  // arrows: false,
 });
 $(document).keydown(function(e) {
     switch(e.which) {
