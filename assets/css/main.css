@@ -627,7 +627,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 }
 
 .slick-slider img {
-  xmax-height: 100vh;
+  max-height: 100vh;
 }
 
 
