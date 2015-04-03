@@ -632,10 +632,8 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	.slick-next {
 		display: none !important;
 	}
-	.slick-slider img {
-		padding-left: 20px;
-	}
 }
+
 
 .slick-slider img {
   max-height: 100vh;
